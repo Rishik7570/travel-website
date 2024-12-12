@@ -1,5 +1,61 @@
 # Travel Website
 
+## Steps to Clone and Run the Project
+
+### 1. **Clone the Repository**
+   Open your terminal and run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/Rishik7570/travel-website.git
+   ```
+
+---
+
+### 2. **Navigate to the Project Directory**
+   Move into the directory where the project was cloned:
+
+   ```bash
+   cd travel-website
+   ```
+
+---
+
+### 3. **Install Dependencies**
+   Install the required dependencies for the project by running:
+
+   ```bash
+   npm install
+   ```
+
+   This command will install all the packages listed in the `package.json` file.
+
+---
+
+### 4. **Run the Development Server**
+   Start the development server with:
+
+   ```bash
+   npm run dev
+   ```
+
+   The default Next.js development server will be accessible at:
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+### 5. **Build the Project for Production** (Optional)
+   If you want to build the project for production, use:
+
+   ```bash
+   npm run build
+   ```
+
+   This will create an optimized build in the `.next` folder.
+
+---
 
 ![image](https://github.com/user-attachments/assets/e66eb4df-fd18-49f5-a864-786b81caa395)
 
