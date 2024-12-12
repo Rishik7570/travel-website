@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Matter";
+  src: url("/fonts/Matter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Matter";
+  src: url("/fonts/Matter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Matter";
+  src: url("/fonts/Matter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-matter: "Matter", Arial, Helvetica, sans-serif;
+  --darkgreen: #0c483c;
+  --yellow: #ffa800;
+  --gray: #F2F2F2;
+  --grayborder: #C7C7C7;
+  --slidergreen: #4D654D;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-matter);
+}
